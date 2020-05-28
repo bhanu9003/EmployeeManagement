@@ -23,7 +23,7 @@ namespace EmployeeManagement.Controllers
             this.userManager = userManager;
             this.signInManager = signInManager;
         }
-
+             
 
         [HttpGet]
         [AllowAnonymous]
